@@ -1,0 +1,69 @@
+***************************************************
+***************************************************
+***************************************************
+***************************************************
+***************************************************
+
+feature extraction method was TF.
+the two most popular topic of alltype
+(8, '0.004*"woman" + 0.004*"water" + 0.004*"eat" + 0.004*"hand" + 0.004*"book"')
+(3, '0.011*"week" + 0.009*"start" + 0.007*"call" + 0.007*"hour" + 0.007*"friend"')
+coherence score of alltype was 0.43011820353540475
+
+the two most popular topic of male
+(6, '0.004*"city" + 0.004*"head" + 0.004*"leave" + 0.004*"hand" + 0.004*"start"')
+(0, '0.009*"post" + 0.009*"film" + 0.008*"movie" + 0.007*"book" + 0.007*"sbristowsd6"')
+coherence score of male was 0.46368655341101184
+
+the two most popular topic of female
+(8, '0.006*"book" + 0.006*"read" + 0.004*"post" + 0.004*"woman" + 0.004*"write"')
+(9, '0.023*"ang" + 0.018*"ako" + 0.017*"lang" + 0.010*"mga" + 0.009*"yung"')
+coherence score of female was 0.4684749505050679
+
+the two most popular topic of ageunder20
+(7, '0.014*"game" + 0.010*"post" + 0.008*"play" + 0.007*"site" + 0.006*"team"')
+(2, '0.014*"love" + 0.009*"feel" + 0.007*"eye" + 0.006*"heart" + 0.006*"leave"')
+coherence score of ageunder20 was 0.45449054462413196
+
+the two most popular topic of ageover20
+(1, '0.006*"f" + 0.006*"china" + 0.004*"anfal" + 0.003*"jeg" + 0.002*"xinjiang"')
+(8, '0.019*"quotejill" + 0.014*"quotejoel" + 0.012*"ang" + 0.009*"lang" + 0.008*"ako"')
+coherence score of ageover20 was 0.4234987933929175
+
+
+
+feature extraction method was TFIDF.
+the two most popular topic of alltype
+(4, '0.000*"mobynathan" + 0.000*"jaggonmaster" + 0.000*"suecutey" + 0.000*"ksylverio" + 0.000*"jassi"')
+(6, '0.000*"jumper991" + 0.000*"coolgal805" + 0.000*"ritzbtz17" + 0.000*"abstinancerox" + 0.000*"etov"')
+coherence score of alltype was 0.5565153503281148
+
+the two most popular topic of male
+(9, '0.000*"mobynathan" + 0.000*"jaggonmaster" + 0.000*"ksylverio" + 0.000*"suecutey" + 0.000*"jassi"')
+(5, '0.000*"nickmac11" + 0.000*"nuthingspeshul" + 0.000*"ermagetton" + 0.000*"eriol1213" + 0.000*"johnnydr87"')
+coherence score of male was 0.5426498848903683
+
+the two most popular topic of female
+(2, '0.000*"jene" + 0.000*"shortaznpwer06" + 0.000*"postcounttb" + 0.000*"sweetjules64" + 0.000*"sleektanchick"')
+(1, '0.000*"h0lla" + 0.000*"boinking" + 0.000*"heff" + 0.000*"ceff" + 0.000*"stmarg"')
+coherence score of female was 0.5830350350612679
+
+the two most popular topic of ageunder20
+(3, '0.000*"maxownsworld" + 0.000*"charlygrl666" + 0.000*"snapeybot" + 0.000*"shuchomouff" + 0.000*"sbristowsd6"')
+(2, '0.000*"mralexpants" + 0.000*"kayltcfan" + 0.000*"wraths01" + 0.000*"polkadot333" + 0.000*"bittersid"')
+coherence score of ageunder20 was 0.5599506991799771
+
+the two most popular topic of ageover20
+(9, '0.000*"uygur" + 0.000*"sachinag1" + 0.000*"xinjiang" + 0.000*"ooc" + 0.000*"gethtmlforicon"')
+(0, '0.000*"duf" + 0.000*"firedancyr7" + 0.000*"evermean" + 0.000*"closeproximityblogspotcomproximity003399ffffffffffcccommentscomments" + 0.000*"350350"')
+coherence score of ageover20 was 0.5897740380181743
+
+***************************************************
+***************************************************
+***************************************************
+***************************************************
+***************************************************
+
+10_topic cost time: 14:18:56.897487
+coherence_tf ->  [0.43011820353540475, 0.46368655341101184, 0.4684749505050679, 0.45449054462413196, 0.4234987933929175]
+coherence_tfidf ->  [0.5565153503281148, 0.5426498848903683, 0.5830350350612679, 0.5599506991799771, 0.5897740380181743]
